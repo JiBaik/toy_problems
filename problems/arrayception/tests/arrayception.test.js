@@ -10,12 +10,12 @@ describe('Arrayception Toy Problem', () => {
       expect(solution.arrayception).to.be.a('function');
     });
 
-    it('should return an array', () => {
+    it('should return an integer', () => {
       const res = solution.arrayception([]);
       expect(res).to.be.an('number');
     });
 
-    it('should return all the combinations of anagrams', () => {
+    it('should return the proper levels of nested arrays', () => {
       const res = solution.arrayception([[5], [[]]]);
       expect(res).to.be.equal(2);
 
