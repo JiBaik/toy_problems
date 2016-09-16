@@ -9,7 +9,8 @@
   './balancedBrackets/tests/balancedBrackets.test.js',
   './bubbleSort/tests/bubbleSort.test.js',
   './characterFrequency/tests/characterFrequency.test.js',
-  './deepEquality/tests/deepEquality.test.js'
+  './deepEquality/tests/deepEquality.test.js',
+  './insertionSort/tests/insertionSort.test.js'
 ].forEach(function(test) {
   require(test);
 });
