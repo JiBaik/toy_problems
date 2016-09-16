@@ -10,7 +10,7 @@ describe('CharacterFrequency Toy Problem', () => {
       expect(solution.characterFrequency).to.be.a('function');
     });
 
-    it('should return an ordered array', () => {
+    it('should return a nested array with string characters orderd alphbetically and by occurrence', () => {
       expect(solution.characterFrequency("aaabbc")).eql([ [ "a", 3 ], [ "b", 2 ], [ "c", 1 ] ]);
       expect(solution.characterFrequency("mississippi"  )).eql([ [ "i", 4 ], [ "s", 4 ], [ "p", 2 ], [ "m", 1 ] ]);
       expect(solution.characterFrequency("")).eql([]);
