@@ -7,7 +7,8 @@
   './arrayception/tests/arrayception.test.js',
   './asyncMap/tests/asyncMap.test.js',
   './balancedBrackets/tests/balancedBrackets.test.js',
-  './bubbleSort/tests/bubbleSort.test.js'
+  './bubbleSort/tests/bubbleSort.test.js',
+  './characterFrequency/tests/characterFrequency.test.js'
 ].forEach(function(test) {
   require(test);
 });
