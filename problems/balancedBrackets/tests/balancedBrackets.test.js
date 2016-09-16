@@ -15,7 +15,7 @@ describe('BalancedBrackets Toy Problem', () => {
       expect(res).to.be.a('boolean');
     });
 
-    it('should return the proper levels of nested arrays', () => {
+    it('should return whether string is balanced or not', () => {
       const res = solution.balancedBrackets("(x + y) - (4)");
       expect(res).to.be.equal(true);
 
